@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/OTPConstrainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDF2F4"
+    tools:context=".OTPLoginScreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_main_hader_otp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="@string/otp_verification_code"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <LinearLayout
+        android:id="@+id/inputBoxLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <EditText
+            android:id="@+id/otp_number_1"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_white_otp"
+            android:cursorVisible="false"
+            android:focusable="true"
+            android:elevation="3dp"
+            android:ems="10"
+            android:fontFamily="@font/ubuntu_medium"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:textAlignment="center"
+            android:textColor="#3d3d3d"
+            android:textColorHighlight="@color/gray"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <EditText
+            android:id="@+id/otp_number_2"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_white_otp"
+            android:cursorVisible="false"
+            android:focusable="true"
+            android:textColor="#3d3d3d"
+            android:elevation="3dp"
+            android:ems="10"
+            android:fontFamily="@font/ubuntu_medium"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:textAlignment="center"
+            android:textColorHighlight="@color/gray"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <EditText
+            android:id="@+id/otp_number_3"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_white_otp"
+            android:cursorVisible="false"
+            android:focusable="true"
+            android:textColor="#3d3d3d"
+            android:elevation="3dp"
+            android:ems="10"
+            android:fontFamily="@font/ubuntu_medium"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:textAlignment="center"
+            android:textColorHighlight="@color/gray"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <EditText
+            android:id="@+id/otp_number_4"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_white_otp"
+            android:cursorVisible="false"
+            android:textColor="#3d3d3d"
+            android:focusable="true"
+            android:elevation="3dp"
+            android:ems="10"
+            android:fontFamily="@font/ubuntu_medium"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:textAlignment="center"
+            android:textColorHighlight="@color/gray"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <EditText
+            android:id="@+id/otp_number_5"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_white_otp"
+            android:cursorVisible="false"
+            android:focusable="true"
+            android:textColor="#3d3d3d"
+            android:elevation="3dp"
+            android:ems="10"
+            android:fontFamily="@font/ubuntu_medium"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:textAlignment="center"
+            android:textColorHighlight="@color/gray"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <EditText
+            android:id="@+id/otp_number_6"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_white_otp"
+            android:cursorVisible="false"
+            android:textColor="#3d3d3d"
+            android:focusable="true"
+            android:elevation="3dp"
+            android:ems="10"
+            android:fontFamily="@font/ubuntu_medium"
+            android:inputType="number"
+            android:maxLength="1"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:textAlignment="center"
+            android:textColorHighlight="@color/gray"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/otp_sent_sms"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="@string/otp_sent_sms"
+        android:textAlignment="center"
+        android:textColor="#3d3d3d"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputBoxLayout" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/otp_submit_button"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/dark_blue_button"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="@string/submit_text"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otp_sent_sms" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/layoutOne"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="#EDF2F4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otp_submit_button">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/resend_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:tint="#3d3d3d"
+                app:srcCompat="@drawable/ic_resend"
+                tools:layout_editor_absoluteX="121dp"
+                tools:layout_editor_absoluteY="459dp" />
+
+            <TextView
+                android:id="@+id/resend_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:text="@string/resend_text"
+                android:textColor="#3d3d3d"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/layoutTwo"
+        android:layout_marginTop="10dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="#EDF2F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/edit_number_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tint="#3d3d3d"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/ic_edit"
+                tools:layout_editor_absoluteX="143dp"
+                tools:layout_editor_absoluteY="513dp" />
+
+            <TextView
+                android:id="@+id/edit_number_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:text="@string/edit_number_text"
+                android:textColor="#3d3d3d"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/otp_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:indeterminateTint="@color/theme_color_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otp_sent_sms" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

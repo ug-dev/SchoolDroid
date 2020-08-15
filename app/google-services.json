@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "771947907929",
+    "firebase_url": "https://schooldroid-d8032.firebaseio.com",
+    "project_id": "schooldroid-d8032",
+    "storage_bucket": "schooldroid-d8032.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771947907929:android:21c815970b2611e9a85a48",
+        "android_client_info": {
+          "package_name": "com.schooldroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771947907929-mtnqmv3b95ret3fj1vghbrcuoe9slrrj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.schooldroid",
+            "certificate_hash": "2fbafc5fb622857b868da00e7c94be3d555e922f"
+          }
+        },
+        {
+          "client_id": "771947907929-k1bue6pd1ifohcp62gb8a6947ug5fprc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2QNk778emIiaTuRVTGdO5GlwVNgoDtys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771947907929-k1bue6pd1ifohcp62gb8a6947ug5fprc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771947907929:android:aa0fc75f211dccbda85a48",
+        "android_client_info": {
+          "package_name": "com.ug.schooldroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771947907929-k1bue6pd1ifohcp62gb8a6947ug5fprc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2QNk778emIiaTuRVTGdO5GlwVNgoDtys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771947907929-k1bue6pd1ifohcp62gb8a6947ug5fprc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

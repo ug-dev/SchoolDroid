@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SchoolDroid</string>
+    <string name="main_title_text_1">Enter your phone number</string>
+    <string name="main_title_text_2">We will send you the <b>6 digit</b> verification code.</string>
+    <string name="phone_text">+91</string>
+    <string name="next_text">Next</string>
+    <string name="otp_verification_code">Verification code</string>
+    <string name="otp_sent_sms">We sent an SMS with 6-digit code to +91 </string>
+    <string name="submit_text">Submit</string>
+    <string name="resend_text">Resend SMS</string>
+    <string name="edit_number_text">Edit phone number</string>
+    <string name="otp_sms_invalid">This code is invalid. Check the SMS and try again.</string>
+</resources>
